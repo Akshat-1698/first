@@ -1,0 +1,27 @@
+calc= input("which mathematical function would you like to use? : ")
+x=float(input("enter first number"))
+y=float(input("enetr your second number"))
+
+
+
+
+
+if calc=="addition"or calc=="plus":
+    sum= x+y
+    print (sum)
+
+elif calc=="substraction"or calc=="minus":
+    sub=x-y
+    print(sub)
+elif calc=="multiplication" or calc=="multiply":
+    multiply=x*y
+    print(multiply)
+
+elif calc=="division"or calc=="divide":
+    div=x/y
+    print(div)
+
+else:
+    print("you can report you work and we will workon that function to be soon added to this calculator")
+
+print("thankyou for using this calculaotr")
