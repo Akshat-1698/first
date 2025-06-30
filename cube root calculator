@@ -1,0 +1,10 @@
+x=int(input("enter the number you wnant to find the cube root of"))
+g=float(input("enter the first number you want to start your guess with"))
+
+print("according to your guess the cube  of the number is", g**3)
+tolerance = 0.0001
+while abs(g**3-x)> tolerance:
+    g=g-((g**3-x)/(3*g**2))
+    
+
+print(f"maybe the final cube root of your number {x} is  approximately {g}")
